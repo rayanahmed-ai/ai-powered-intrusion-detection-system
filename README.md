@@ -129,13 +129,7 @@ SQLite
 
 NumPy, Pandas, Matplotlib
 
-⚠️ Scope & Limitations
 
-This is not a signature-based IDS (e.g., Snort, Suricata)
-
-Does not perform raw packet capture or deep packet inspection
-
-Designed for research, education, and applied experimentation, not production SOC deployment
 
 🎯 Key Contributions
 
