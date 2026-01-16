@@ -1,0 +1,539 @@
+Oct 13 01:23:04 kali systemd[1]: Starting NetworkManager.service - Network Manager...
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.0482] NetworkManager (version 1.52.0) is starting... (boot:1f44c5e8-a8a4-4c27-bb3d-3266be8a0c06)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.0482] Read config: /etc/NetworkManager/NetworkManager.conf, /usr/lib/NetworkManager/conf.d/no-mac-addr-change.conf
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.0571] manager[0x55b8cf23aab0]: monitoring kernel firmware directory '/lib/firmware'.
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.0571] monitoring ifupdown state file '/run/network/ifstate'.
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1143] hostname: hostname: using hostnamed
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1143] hostname: static hostname changed from (none) to "kali"
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1164] dns-mgr: init: dns=default,systemd-resolved rc-manager=symlink (auto)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1223] manager[0x55b8cf23aab0]: rfkill: Wi-Fi hardware radio set enabled
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1223] manager[0x55b8cf23aab0]: rfkill: WWAN hardware radio set enabled
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1395] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-bluetooth.so)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1410] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-adsl.so)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1458] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-team.so)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1500] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-wifi.so)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1530] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-wwan.so)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1534] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1535] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1535] manager: Networking is enabled by state file
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1586] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-settings-plugin-ifupdown.so")
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1586] settings: Loaded settings plugin: keyfile (internal)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1586] ifupdown: management mode: unmanaged
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1586] ifupdown:       interface-parser: parsing file /etc/network/interfaces
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1586] ifupdown:       interface-parser: source line includes interfaces file(s) /etc/network/interfaces.d/*
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1587] ifupdown: interfaces file /etc/network/interfaces.d/* doesn't exist
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1587] ifupdown:       interface-parser: finished parsing file /etc/network/interfaces
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1641] dhcp: init: Using DHCP client 'internal'
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1643] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1690] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', managed-type: 'external')
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1691] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', managed-type: 'external')
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1694] device (lo): Activation: starting connection 'lo' (2e015955-58d1-4f65-8a4c-097b7b0f0455)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1702] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1713] settings: (eth0): created default wired connection 'Wired connection 1'
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1714] device (eth0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+Oct 13 01:23:05 kali systemd[1]: Started NetworkManager.service - Network Manager.
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1836] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1888] device (lo): state change: disconnected -> prepare (reason 'none', managed-type: 'external')
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1889] device (lo): state change: prepare -> config (reason 'none', managed-type: 'external')
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1890] device (lo): state change: config -> ip-config (reason 'none', managed-type: 'external')
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1891] device (eth0): carrier: link connected
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1892] device (lo): state change: ip-config -> ip-check (reason 'none', managed-type: 'external')
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1894] device (eth0): state change: unavailable -> disconnected (reason 'carrier-changed', managed-type: 'full')
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1909] modem-manager: oFono is not available
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1910] policy: auto-activating connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1911] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1927] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1928] manager: NetworkManager state is now CONNECTING
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1928] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1958] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.1960] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.2009] modem-manager: ModemManager available
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.2073] device (lo): state change: ip-check -> secondaries (reason 'none', managed-type: 'external')
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.2074] device (lo): state change: secondaries -> activated (reason 'none', managed-type: 'external')
+Oct 13 01:23:05 kali NetworkManager[658]: <info>  [1760332985.2078] device (lo): Activation: successful, device activated.
+Oct 13 01:23:22 kali NetworkManager[658]: <info>  [1760333002.3962] agent-manager: agent[d2efb8adfdef493e,:1.54/org.freedesktop.nm-applet/1000]: agent registered
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.5828] device (eth0): state change: ip-config -> deactivating (reason 'new-activation', managed-type: 'full')
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.5830] manager: NetworkManager state is now DISCONNECTING
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.5835] device (eth0): disconnecting for new activation request.
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.5838] audit: op="connection-activate" uuid="f18d30c9-a5ce-32b9-9c9a-649147e70acd" name="Wired connection 1" pid=1979 uid=1000 result="success"
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.6253] device (eth0): state change: deactivating -> disconnected (reason 'new-activation', managed-type: 'full')
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.6407] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.6408] dhcp4 (eth0): state changed no lease
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.6416] manager: NetworkManager state is now DISCONNECTED
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.6417] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.6421] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.6422] manager: NetworkManager state is now CONNECTING
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.6423] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.6444] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:23:31 kali NetworkManager[658]: <info>  [1760333011.6456] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:24:16 kali NetworkManager[658]: <info>  [1760333056.9969] device (eth0): state change: ip-config -> failed (reason 'ip-config-unavailable', managed-type: 'full')
+Oct 13 01:24:16 kali NetworkManager[658]: <info>  [1760333056.9975] manager: NetworkManager state is now DISCONNECTED
+Oct 13 01:24:16 kali NetworkManager[658]: <warn>  [1760333056.9977] device (eth0): Activation: failed for connection 'Wired connection 1'
+Oct 13 01:24:16 kali NetworkManager[658]: <info>  [1760333056.9978] device (eth0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+Oct 13 01:24:17 kali NetworkManager[658]: <info>  [1760333057.0004] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 01:24:17 kali NetworkManager[658]: <info>  [1760333057.0004] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:24:17 kali NetworkManager[658]: <info>  [1760333057.0005] dhcp4 (eth0): state changed no lease
+Oct 13 01:24:17 kali NetworkManager[658]: <info>  [1760333057.0029] policy: auto-activating connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:24:17 kali NetworkManager[658]: <info>  [1760333057.0036] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:24:17 kali NetworkManager[658]: <info>  [1760333057.0039] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:24:17 kali NetworkManager[658]: <info>  [1760333057.0041] manager: NetworkManager state is now CONNECTING
+Oct 13 01:24:17 kali NetworkManager[658]: <info>  [1760333057.0043] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:24:17 kali NetworkManager[658]: <info>  [1760333057.0048] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:24:17 kali NetworkManager[658]: <info>  [1760333057.0066] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.3491] device (eth0): state change: ip-config -> deactivating (reason 'new-activation', managed-type: 'full')
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.3509] manager: NetworkManager state is now DISCONNECTING
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.3517] device (eth0): disconnecting for new activation request.
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.3524] audit: op="connection-activate" uuid="f18d30c9-a5ce-32b9-9c9a-649147e70acd" name="Wired connection 1" pid=1979 uid=1000 result="success"
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.4069] device (eth0): state change: deactivating -> disconnected (reason 'new-activation', managed-type: 'full')
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.4253] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.4254] dhcp4 (eth0): state changed no lease
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.4266] manager: NetworkManager state is now DISCONNECTED
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.4268] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.4273] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.4275] manager: NetworkManager state is now CONNECTING
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.4276] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.4282] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:25:01 kali NetworkManager[658]: <info>  [1760333101.4286] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:25:46 kali NetworkManager[658]: <info>  [1760333146.9933] device (eth0): state change: ip-config -> failed (reason 'ip-config-unavailable', managed-type: 'full')
+Oct 13 01:25:46 kali NetworkManager[658]: <info>  [1760333146.9960] manager: NetworkManager state is now DISCONNECTED
+Oct 13 01:25:46 kali NetworkManager[658]: <warn>  [1760333146.9963] device (eth0): Activation: failed for connection 'Wired connection 1'
+Oct 13 01:25:46 kali NetworkManager[658]: <info>  [1760333146.9965] device (eth0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+Oct 13 01:25:47 kali NetworkManager[658]: <info>  [1760333147.0086] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 01:25:47 kali NetworkManager[658]: <info>  [1760333147.0086] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:25:47 kali NetworkManager[658]: <info>  [1760333147.0087] dhcp4 (eth0): state changed no lease
+Oct 13 01:25:47 kali NetworkManager[658]: <info>  [1760333147.0114] policy: auto-activating connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:25:47 kali NetworkManager[658]: <info>  [1760333147.0119] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:25:47 kali NetworkManager[658]: <info>  [1760333147.0121] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:25:47 kali NetworkManager[658]: <info>  [1760333147.0134] manager: NetworkManager state is now CONNECTING
+Oct 13 01:25:47 kali NetworkManager[658]: <info>  [1760333147.0135] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:25:47 kali NetworkManager[658]: <info>  [1760333147.0150] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:25:47 kali NetworkManager[658]: <info>  [1760333147.0183] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:26:31 kali NetworkManager[658]: <info>  [1760333191.9976] device (eth0): state change: ip-config -> failed (reason 'ip-config-unavailable', managed-type: 'full')
+Oct 13 01:26:31 kali NetworkManager[658]: <info>  [1760333191.9982] manager: NetworkManager state is now DISCONNECTED
+Oct 13 01:26:31 kali NetworkManager[658]: <warn>  [1760333191.9983] device (eth0): Activation: failed for connection 'Wired connection 1'
+Oct 13 01:26:31 kali NetworkManager[658]: <info>  [1760333191.9985] device (eth0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+Oct 13 01:26:32 kali NetworkManager[658]: <info>  [1760333192.0204] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 01:26:32 kali NetworkManager[658]: <info>  [1760333192.0204] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:26:32 kali NetworkManager[658]: <info>  [1760333192.0204] dhcp4 (eth0): state changed no lease
+Oct 13 01:26:32 kali NetworkManager[658]: <info>  [1760333192.0221] policy: auto-activating connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:26:32 kali NetworkManager[658]: <info>  [1760333192.0226] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:26:32 kali NetworkManager[658]: <info>  [1760333192.0227] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:26:32 kali NetworkManager[658]: <info>  [1760333192.0231] manager: NetworkManager state is now CONNECTING
+Oct 13 01:26:32 kali NetworkManager[658]: <info>  [1760333192.0232] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:26:32 kali NetworkManager[658]: <info>  [1760333192.0236] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:26:32 kali NetworkManager[658]: <info>  [1760333192.0239] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:27:16 kali NetworkManager[658]: <info>  [1760333236.9972] device (eth0): state change: ip-config -> failed (reason 'ip-config-unavailable', managed-type: 'full')
+Oct 13 01:27:16 kali NetworkManager[658]: <info>  [1760333236.9977] manager: NetworkManager state is now DISCONNECTED
+Oct 13 01:27:16 kali NetworkManager[658]: <warn>  [1760333236.9979] device (eth0): Activation: failed for connection 'Wired connection 1'
+Oct 13 01:27:16 kali NetworkManager[658]: <info>  [1760333236.9981] device (eth0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+Oct 13 01:27:17 kali NetworkManager[658]: <info>  [1760333237.0166] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 01:27:17 kali NetworkManager[658]: <info>  [1760333237.0166] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:27:17 kali NetworkManager[658]: <info>  [1760333237.0166] dhcp4 (eth0): state changed no lease
+Oct 13 01:27:17 kali NetworkManager[658]: <info>  [1760333237.0197] manager: startup complete
+-- Boot d9d37faddd3c42edbfe6f944d72c40ab --
+Oct 13 01:32:55 kali systemd[1]: Starting NetworkManager.service - Network Manager...
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.2102] NetworkManager (version 1.52.0) is starting... (boot:d9d37fad-dd3c-42ed-bfe6-f944d72c40ab)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.2103] Read config: /etc/NetworkManager/NetworkManager.conf, /usr/lib/NetworkManager/conf.d/no-mac-addr-change.conf
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.2279] manager[0x55ae4f60a570]: monitoring kernel firmware directory '/lib/firmware'.
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.2281] monitoring ifupdown state file '/run/network/ifstate'.
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3441] hostname: hostname: using hostnamed
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3441] hostname: static hostname changed from (none) to "kali"
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3455] dns-mgr: init: dns=default,systemd-resolved rc-manager=symlink (auto)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3574] manager[0x55ae4f60a570]: rfkill: Wi-Fi hardware radio set enabled
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3575] manager[0x55ae4f60a570]: rfkill: WWAN hardware radio set enabled
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3743] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-bluetooth.so)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3751] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-adsl.so)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3786] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-team.so)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3808] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-wifi.so)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3816] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-wwan.so)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3819] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3820] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3820] manager: Networking is enabled by state file
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3842] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-settings-plugin-ifupdown.so")
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3842] settings: Loaded settings plugin: keyfile (internal)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3842] ifupdown: management mode: unmanaged
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3843] ifupdown:       interface-parser: parsing file /etc/network/interfaces
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3843] ifupdown:       interface-parser: source line includes interfaces file(s) /etc/network/interfaces.d/*
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3843] ifupdown: interfaces file /etc/network/interfaces.d/* doesn't exist
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3843] ifupdown:       interface-parser: finished parsing file /etc/network/interfaces
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3875] dhcp: init: Using DHCP client 'internal'
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3878] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3913] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', managed-type: 'external')
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3916] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', managed-type: 'external')
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3967] device (lo): Activation: starting connection 'lo' (1104ad19-a679-49a9-a896-49e838e8fbce)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3976] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3985] settings: (eth0): created default wired connection 'Wired connection 1'
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.3985] device (eth0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+Oct 13 01:32:55 kali systemd[1]: Started NetworkManager.service - Network Manager.
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4079] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4108] device (lo): state change: disconnected -> prepare (reason 'none', managed-type: 'external')
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4110] device (lo): state change: prepare -> config (reason 'none', managed-type: 'external')
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4111] device (lo): state change: config -> ip-config (reason 'none', managed-type: 'external')
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4112] device (eth0): carrier: link connected
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4113] device (lo): state change: ip-config -> ip-check (reason 'none', managed-type: 'external')
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4148] device (eth0): state change: unavailable -> disconnected (reason 'carrier-changed', managed-type: 'full')
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4154] modem-manager: oFono is not available
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4154] policy: auto-activating connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4158] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4159] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4163] manager: NetworkManager state is now CONNECTING
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4166] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4175] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4183] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4220] modem-manager: ModemManager available
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4530] device (lo): state change: ip-check -> secondaries (reason 'none', managed-type: 'external')
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4532] device (lo): state change: secondaries -> activated (reason 'none', managed-type: 'external')
+Oct 13 01:32:55 kali NetworkManager[626]: <info>  [1760333575.4535] device (lo): Activation: successful, device activated.
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.7923] device (eth0): state change: ip-config -> failed (reason 'ip-config-unavailable', managed-type: 'full')
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.7928] manager: NetworkManager state is now DISCONNECTED
+Oct 13 01:33:40 kali NetworkManager[626]: <warn>  [1760333620.7929] device (eth0): Activation: failed for connection 'Wired connection 1'
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.7930] device (eth0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.8105] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.8106] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.8106] dhcp4 (eth0): state changed no lease
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.8126] policy: auto-activating connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.8134] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.8135] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.8137] manager: NetworkManager state is now CONNECTING
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.8138] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.8151] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:33:40 kali NetworkManager[626]: <info>  [1760333620.8163] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7448] device (eth0): state change: ip-config -> failed (reason 'ip-config-unavailable', managed-type: 'full')
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7454] manager: NetworkManager state is now DISCONNECTED
+Oct 13 01:34:25 kali NetworkManager[626]: <warn>  [1760333665.7456] device (eth0): Activation: failed for connection 'Wired connection 1'
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7458] device (eth0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7641] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7642] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7642] dhcp4 (eth0): state changed no lease
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7659] policy: auto-activating connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7665] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7666] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7668] manager: NetworkManager state is now CONNECTING
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7670] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7683] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:34:25 kali NetworkManager[626]: <info>  [1760333665.7691] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7286] device (eth0): state change: ip-config -> failed (reason 'ip-config-unavailable', managed-type: 'full')
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7293] manager: NetworkManager state is now DISCONNECTED
+Oct 13 01:35:10 kali NetworkManager[626]: <warn>  [1760333710.7295] device (eth0): Activation: failed for connection 'Wired connection 1'
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7297] device (eth0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7441] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7443] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7443] dhcp4 (eth0): state changed no lease
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7462] policy: auto-activating connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7469] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7470] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7472] manager: NetworkManager state is now CONNECTING
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7474] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7484] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:35:10 kali NetworkManager[626]: <info>  [1760333710.7490] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:35:49 kali NetworkManager[626]: <info>  [1760333749.2572] agent-manager: agent[8cc1b5376459c4ff,:1.54/org.freedesktop.nm-applet/1000]: agent registered
+Oct 13 01:35:55 kali NetworkManager[626]: <info>  [1760333755.7530] device (eth0): state change: ip-config -> failed (reason 'ip-config-unavailable', managed-type: 'full')
+Oct 13 01:35:55 kali NetworkManager[626]: <info>  [1760333755.7544] manager: NetworkManager state is now DISCONNECTED
+Oct 13 01:35:55 kali NetworkManager[626]: <warn>  [1760333755.7546] device (eth0): Activation: failed for connection 'Wired connection 1'
+Oct 13 01:35:55 kali NetworkManager[626]: <info>  [1760333755.7548] device (eth0): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+Oct 13 01:35:55 kali NetworkManager[626]: <info>  [1760333755.7761] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 01:35:55 kali NetworkManager[626]: <info>  [1760333755.7762] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:35:55 kali NetworkManager[626]: <info>  [1760333755.7762] dhcp4 (eth0): state changed no lease
+Oct 13 01:35:55 kali NetworkManager[626]: <info>  [1760333755.7788] manager: startup complete
+Oct 13 01:38:57 kali systemd[1]: Stopping NetworkManager.service - Network Manager...
+Oct 13 01:38:57 kali NetworkManager[626]: <info>  [1760333937.9751] caught SIGTERM, shutting down normally.
+Oct 13 01:38:58 kali NetworkManager[626]: <info>  [1760333938.0511] exiting (success)
+Oct 13 01:38:58 kali systemd[1]: NetworkManager.service: Deactivated successfully.
+Oct 13 01:38:58 kali systemd[1]: Stopped NetworkManager.service - Network Manager.
+Oct 13 01:38:58 kali systemd[1]: Starting NetworkManager.service - Network Manager...
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.2326] NetworkManager (version 1.52.0) is starting... (after a restart, boot:d9d37fad-dd3c-42ed-bfe6-f944d72c40ab)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.2327] Read config: /etc/NetworkManager/NetworkManager.conf, /usr/lib/NetworkManager/conf.d/no-mac-addr-change.conf
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.2404] manager[0x559c7d73cf00]: monitoring kernel firmware directory '/lib/firmware'.
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.2404] monitoring ifupdown state file '/run/network/ifstate'.
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3399] hostname: hostname: using hostnamed
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3399] hostname: static hostname changed from (none) to "kali"
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3413] dns-mgr: init: dns=default,systemd-resolved rc-manager=symlink (auto)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3428] manager[0x559c7d73cf00]: rfkill: Wi-Fi hardware radio set enabled
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3430] manager[0x559c7d73cf00]: rfkill: WWAN hardware radio set enabled
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3535] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-bluetooth.so)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3540] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-adsl.so)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3560] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-team.so)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3576] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-wifi.so)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3578] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-wwan.so)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3582] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3583] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3583] manager: Networking is enabled by state file
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3588] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-settings-plugin-ifupdown.so")
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3588] settings: Loaded settings plugin: keyfile (internal)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3588] ifupdown: management mode: unmanaged
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3589] ifupdown:       interface-parser: parsing file /etc/network/interfaces
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3602] ifupdown:       interface-parser: source line includes interfaces file(s) /etc/network/interfaces.d/*
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3610] ifupdown: interfaces file /etc/network/interfaces.d/* doesn't exist
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3612] ifupdown:       interface-parser: finished parsing file /etc/network/interfaces
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3683] dhcp: init: Using DHCP client 'internal'
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3686] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3690] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', managed-type: 'external')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3694] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', managed-type: 'external')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3699] device (lo): Activation: starting connection 'lo' (1104ad19-a679-49a9-a896-49e838e8fbce)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3703] device (eth0): carrier: link connected
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3707] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3709] device (eth0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+Oct 13 01:38:58 kali systemd[1]: Started NetworkManager.service - Network Manager.
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3817] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3847] device (lo): state change: disconnected -> prepare (reason 'none', managed-type: 'external')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3851] device (lo): state change: prepare -> config (reason 'none', managed-type: 'external')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3852] device (lo): state change: config -> ip-config (reason 'none', managed-type: 'external')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3936] modem-manager: oFono is not available
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3948] device (lo): state change: ip-config -> ip-check (reason 'none', managed-type: 'external')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.3955] device (eth0): state change: unavailable -> disconnected (reason 'none', managed-type: 'full')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.4281] modem-manager: ModemManager available
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.4299] policy: auto-activating connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.4301] device (lo): state change: ip-check -> secondaries (reason 'none', managed-type: 'external')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.4320] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.4320] device (lo): state change: secondaries -> activated (reason 'none', managed-type: 'external')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.4327] device (lo): Activation: successful, device activated.
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.4330] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.4331] manager: NetworkManager state is now CONNECTING
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.4331] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.4369] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.4378] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.4509] dhcp4 (eth0): state changed new lease, address=10.0.1.14, acd pending
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.5574] agent-manager: agent[2caf5861dc0ab029,:1.54/org.freedesktop.nm-applet/1000]: agent registered
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.6078] dhcp4 (eth0): state changed new lease, address=10.0.1.14
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.6095] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.6266] device (eth0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.6362] device (eth0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.6364] device (eth0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.6366] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.6367] device (eth0): Activation: successful, device activated.
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.6370] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 13 01:38:58 kali NetworkManager[4192]: <info>  [1760333938.6371] manager: startup complete
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.4916] device (eth0): state change: activated -> deactivating (reason 'new-activation', managed-type: 'full')
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.4921] manager: NetworkManager state is now DISCONNECTING
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.4932] device (eth0): disconnecting for new activation request.
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.4934] audit: op="connection-activate" uuid="f18d30c9-a5ce-32b9-9c9a-649147e70acd" name="Wired connection 1" pid=1985 uid=1000 result="success"
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.6020] device (eth0): state change: deactivating -> disconnected (reason 'new-activation', managed-type: 'full')
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.6040] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.6040] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.6040] dhcp4 (eth0): state changed no lease
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.8983] manager: NetworkManager state is now DISCONNECTED
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.8986] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.8995] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.8997] manager: NetworkManager state is now CONNECTING
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.8998] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.9146] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.9159] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:46:23 kali NetworkManager[4192]: <info>  [1760334383.9233] dhcp4 (eth0): state changed new lease, address=10.0.1.14, acd pending
+Oct 13 01:46:24 kali NetworkManager[4192]: <info>  [1760334384.1180] dhcp4 (eth0): state changed new lease, address=10.0.1.14
+Oct 13 01:46:24 kali NetworkManager[4192]: <info>  [1760334384.1195] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS
+Oct 13 01:46:24 kali NetworkManager[4192]: <info>  [1760334384.1358] device (eth0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+Oct 13 01:46:24 kali NetworkManager[4192]: <info>  [1760334384.1399] device (eth0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+Oct 13 01:46:24 kali NetworkManager[4192]: <info>  [1760334384.1407] device (eth0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+Oct 13 01:46:24 kali NetworkManager[4192]: <info>  [1760334384.1410] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 01:46:24 kali NetworkManager[4192]: <info>  [1760334384.1414] device (eth0): Activation: successful, device activated.
+Oct 13 01:46:24 kali NetworkManager[4192]: <info>  [1760334384.1416] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 13 01:47:09 kali NetworkManager[4192]: <info>  [1760334429.7581] device (eth0): state change: activated -> deactivating (reason 'new-activation', managed-type: 'full')
+Oct 13 01:47:09 kali NetworkManager[4192]: <info>  [1760334429.7582] manager: NetworkManager state is now DISCONNECTING
+Oct 13 01:47:09 kali NetworkManager[4192]: <info>  [1760334429.7608] device (eth0): disconnecting for new activation request.
+Oct 13 01:47:09 kali NetworkManager[4192]: <info>  [1760334429.7616] audit: op="connection-activate" uuid="f18d30c9-a5ce-32b9-9c9a-649147e70acd" name="Wired connection 1" pid=1985 uid=1000 result="success"
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.5465] device (eth0): state change: deactivating -> disconnected (reason 'new-activation', managed-type: 'full')
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.5481] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.5485] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.5485] dhcp4 (eth0): state changed no lease
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.6081] manager: NetworkManager state is now DISCONNECTED
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.6099] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.6121] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.6125] manager: NetworkManager state is now CONNECTING
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.6129] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.6169] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.6182] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.6474] dhcp4 (eth0): state changed new lease, address=10.0.1.14, acd pending
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.8360] dhcp4 (eth0): state changed new lease, address=10.0.1.14
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.8401] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.8644] device (eth0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.8711] device (eth0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.8719] device (eth0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.8728] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.8729] device (eth0): Activation: successful, device activated.
+Oct 13 01:47:10 kali NetworkManager[4192]: <info>  [1760334430.8807] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 13 01:54:51 kali NetworkManager[4192]: <info>  [1760334891.6572] audit: op="radio-control" arg="wireless-enabled:on" pid=12451 uid=0 result="success"
+Oct 13 02:06:51 kali NetworkManager[4192]: <info>  [1760335611.9244] device (eth0): state change: activated -> deactivating (reason 'new-activation', managed-type: 'full')
+Oct 13 02:06:51 kali NetworkManager[4192]: <info>  [1760335611.9246] manager: NetworkManager state is now DISCONNECTING
+Oct 13 02:06:51 kali NetworkManager[4192]: <info>  [1760335611.9249] device (eth0): disconnecting for new activation request.
+Oct 13 02:06:51 kali NetworkManager[4192]: <info>  [1760335611.9249] audit: op="connection-activate" uuid="f18d30c9-a5ce-32b9-9c9a-649147e70acd" name="Wired connection 1" pid=1985 uid=1000 result="success"
+Oct 13 02:06:51 kali NetworkManager[4192]: <info>  [1760335611.9520] device (eth0): state change: deactivating -> disconnected (reason 'new-activation', managed-type: 'full')
+Oct 13 02:06:51 kali NetworkManager[4192]: <info>  [1760335611.9525] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 02:06:51 kali NetworkManager[4192]: <info>  [1760335611.9525] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 02:06:51 kali NetworkManager[4192]: <info>  [1760335611.9525] dhcp4 (eth0): state changed no lease
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.0294] manager: NetworkManager state is now DISCONNECTED
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.0295] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.0298] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.0299] manager: NetworkManager state is now CONNECTING
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.0299] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.0301] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.0308] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.0329] dhcp4 (eth0): state changed new lease, address=10.0.1.14, acd pending
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.2348] dhcp4 (eth0): state changed new lease, address=10.0.1.14
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.2360] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.2482] device (eth0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.2507] device (eth0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.2508] device (eth0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.2509] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.2510] device (eth0): Activation: successful, device activated.
+Oct 13 02:06:52 kali NetworkManager[4192]: <info>  [1760335612.2512] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9235] device (eth0): state change: activated -> deactivating (reason 'new-activation', managed-type: 'full')
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9236] manager: NetworkManager state is now DISCONNECTING
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9246] device (eth0): disconnecting for new activation request.
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9247] audit: op="connection-activate" uuid="f18d30c9-a5ce-32b9-9c9a-649147e70acd" name="Wired connection 1" pid=1985 uid=1000 result="success"
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9465] device (eth0): state change: deactivating -> disconnected (reason 'new-activation', managed-type: 'full')
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9471] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9471] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9471] dhcp4 (eth0): state changed no lease
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9968] manager: NetworkManager state is now DISCONNECTED
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9969] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9972] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9972] manager: NetworkManager state is now CONNECTING
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9973] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 02:08:04 kali NetworkManager[4192]: <info>  [1760335684.9975] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 02:08:05 kali NetworkManager[4192]: <info>  [1760335685.0005] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 02:08:05 kali NetworkManager[4192]: <info>  [1760335685.0025] dhcp4 (eth0): state changed new lease, address=10.0.1.14, acd pending
+Oct 13 02:08:05 kali NetworkManager[4192]: <info>  [1760335685.1488] dhcp4 (eth0): state changed new lease, address=10.0.1.14
+Oct 13 02:08:05 kali NetworkManager[4192]: <info>  [1760335685.1504] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS
+Oct 13 02:08:05 kali NetworkManager[4192]: <info>  [1760335685.1637] device (eth0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+Oct 13 02:08:05 kali NetworkManager[4192]: <info>  [1760335685.1652] device (eth0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+Oct 13 02:08:05 kali NetworkManager[4192]: <info>  [1760335685.1652] device (eth0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+Oct 13 02:08:05 kali NetworkManager[4192]: <info>  [1760335685.1653] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 02:08:05 kali NetworkManager[4192]: <info>  [1760335685.1654] device (eth0): Activation: successful, device activated.
+Oct 13 02:08:05 kali NetworkManager[4192]: <info>  [1760335685.1655] manager: NetworkManager state is now CONNECTED_GLOBAL
+-- Boot 5b212a5f905644e38a1f475fe1ac410a --
+Oct 13 02:12:26 kali systemd[1]: Starting NetworkManager.service - Network Manager...
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.8085] NetworkManager (version 1.52.0) is starting... (boot:5b212a5f-9056-44e3-8a1f-475fe1ac410a)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.8085] Read config: /etc/NetworkManager/NetworkManager.conf, /usr/lib/NetworkManager/conf.d/no-mac-addr-change.conf
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.8212] manager[0x5646ae9cc1d0]: monitoring kernel firmware directory '/lib/firmware'.
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.8212] monitoring ifupdown state file '/run/network/ifstate'.
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9029] hostname: hostname: using hostnamed
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9029] hostname: static hostname changed from (none) to "kali"
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9034] dns-mgr: init: dns=default,systemd-resolved rc-manager=symlink (auto)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9114] manager[0x5646ae9cc1d0]: rfkill: Wi-Fi hardware radio set enabled
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9114] manager[0x5646ae9cc1d0]: rfkill: WWAN hardware radio set enabled
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9202] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-bluetooth.so)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9211] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-adsl.so)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9240] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-team.so)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9257] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-wifi.so)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9266] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-wwan.so)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9270] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9271] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9271] manager: Networking is enabled by state file
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9304] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-settings-plugin-ifupdown.so")
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9304] settings: Loaded settings plugin: keyfile (internal)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9304] ifupdown: management mode: unmanaged
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9304] ifupdown:       interface-parser: parsing file /etc/network/interfaces
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9304] ifupdown:       interface-parser: source line includes interfaces file(s) /etc/network/interfaces.d/*
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9305] ifupdown: interfaces file /etc/network/interfaces.d/* doesn't exist
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9305] ifupdown:       interface-parser: finished parsing file /etc/network/interfaces
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9333] dhcp: init: Using DHCP client 'internal'
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9335] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9359] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', managed-type: 'external')
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9362] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', managed-type: 'external')
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9366] device (lo): Activation: starting connection 'lo' (9132fe4e-075d-4bae-9004-5636c5c3e500)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9371] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9379] settings: (eth0): created default wired connection 'Wired connection 1'
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9379] device (eth0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+Oct 13 02:12:26 kali systemd[1]: Started NetworkManager.service - Network Manager.
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9416] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9448] device (lo): state change: disconnected -> prepare (reason 'none', managed-type: 'external')
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9455] device (lo): state change: prepare -> config (reason 'none', managed-type: 'external')
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9463] device (lo): state change: config -> ip-config (reason 'none', managed-type: 'external')
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9474] device (eth0): carrier: link connected
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9475] modem-manager: oFono is not available
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9475] device (lo): state change: ip-config -> ip-check (reason 'none', managed-type: 'external')
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9477] device (eth0): state change: unavailable -> disconnected (reason 'carrier-changed', managed-type: 'full')
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9497] policy: auto-activating connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9499] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9501] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9503] manager: NetworkManager state is now CONNECTING
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9503] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9549] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9551] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9583] modem-manager: ModemManager available
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9597] dhcp4 (eth0): state changed new lease, address=10.0.1.14, acd pending
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9626] device (lo): state change: ip-check -> secondaries (reason 'none', managed-type: 'external')
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9628] device (lo): state change: secondaries -> activated (reason 'none', managed-type: 'external')
+Oct 13 02:12:26 kali NetworkManager[598]: <info>  [1760335946.9630] device (lo): Activation: successful, device activated.
+Oct 13 02:12:27 kali NetworkManager[598]: <info>  [1760335947.1076] dhcp4 (eth0): state changed new lease, address=10.0.1.14
+Oct 13 02:12:27 kali NetworkManager[598]: <info>  [1760335947.1084] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS
+Oct 13 02:12:27 kali NetworkManager[598]: <info>  [1760335947.1187] device (eth0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+Oct 13 02:12:27 kali NetworkManager[598]: <info>  [1760335947.1205] device (eth0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+Oct 13 02:12:27 kali NetworkManager[598]: <info>  [1760335947.1209] device (eth0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+Oct 13 02:12:27 kali NetworkManager[598]: <info>  [1760335947.1213] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 02:12:27 kali NetworkManager[598]: <info>  [1760335947.1214] device (eth0): Activation: successful, device activated.
+Oct 13 02:12:27 kali NetworkManager[598]: <info>  [1760335947.1215] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 13 02:12:27 kali NetworkManager[598]: <info>  [1760335947.1215] manager: startup complete
+Oct 13 02:12:52 kali NetworkManager[598]: <info>  [1760335972.8762] agent-manager: agent[b3935e001a7811cc,:1.52/org.freedesktop.nm-applet/1000]: agent registered
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.1542] device (eth0): state change: activated -> deactivating (reason 'new-activation', managed-type: 'full')
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.1544] manager: NetworkManager state is now DISCONNECTING
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.1548] device (eth0): disconnecting for new activation request.
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.1549] audit: op="connection-activate" uuid="f18d30c9-a5ce-32b9-9c9a-649147e70acd" name="Wired connection 1" pid=1991 uid=1000 result="success"
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.1789] device (eth0): state change: deactivating -> disconnected (reason 'new-activation', managed-type: 'full')
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.1792] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.1792] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.1792] dhcp4 (eth0): state changed no lease
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.2168] manager: NetworkManager state is now DISCONNECTED
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.2169] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.2172] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.2172] manager: NetworkManager state is now CONNECTING
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.2173] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.2186] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.2192] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.2201] dhcp4 (eth0): state changed new lease, address=10.0.1.14, acd pending
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.3717] dhcp4 (eth0): state changed new lease, address=10.0.1.14
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.3729] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.3814] device (eth0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.3827] device (eth0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.3833] device (eth0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.3834] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.3834] device (eth0): Activation: successful, device activated.
+Oct 13 02:12:57 kali NetworkManager[598]: <info>  [1760335977.3849] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.1339] device (eth0): state change: activated -> deactivating (reason 'new-activation', managed-type: 'full')
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.1344] manager: NetworkManager state is now DISCONNECTING
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.1367] device (eth0): disconnecting for new activation request.
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.1368] audit: op="connection-activate" uuid="f18d30c9-a5ce-32b9-9c9a-649147e70acd" name="Wired connection 1" pid=1991 uid=1000 result="success"
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.1893] device (eth0): state change: deactivating -> disconnected (reason 'new-activation', managed-type: 'full')
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.1899] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.1899] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.1899] dhcp4 (eth0): state changed no lease
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.2369] manager: NetworkManager state is now DISCONNECTED
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.2381] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.2393] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.2395] manager: NetworkManager state is now CONNECTING
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.2405] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.2414] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.2421] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.2477] dhcp4 (eth0): state changed new lease, address=10.0.1.14, acd pending
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.4362] dhcp4 (eth0): state changed new lease, address=10.0.1.14
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.4380] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.4572] device (eth0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.4608] device (eth0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.4617] device (eth0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.4631] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.4636] device (eth0): Activation: successful, device activated.
+Oct 13 02:15:31 kali NetworkManager[598]: <info>  [1760336131.4639] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 13 02:15:34 kali NetworkManager[598]: <info>  [1760336134.9669] device (eth0): state change: activated -> deactivating (reason 'new-activation', managed-type: 'full')
+Oct 13 02:15:34 kali NetworkManager[598]: <info>  [1760336134.9675] manager: NetworkManager state is now DISCONNECTING
+Oct 13 02:15:34 kali NetworkManager[598]: <info>  [1760336134.9700] device (eth0): disconnecting for new activation request.
+Oct 13 02:15:34 kali NetworkManager[598]: <info>  [1760336134.9702] audit: op="connection-activate" uuid="f18d30c9-a5ce-32b9-9c9a-649147e70acd" name="Wired connection 1" pid=1991 uid=1000 result="success"
+Oct 13 02:15:34 kali NetworkManager[598]: <info>  [1760336134.9974] device (eth0): state change: deactivating -> disconnected (reason 'new-activation', managed-type: 'full')
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.0157] dhcp4 (eth0): canceled DHCP transaction
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.0158] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.0158] dhcp4 (eth0): state changed no lease
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.0675] manager: NetworkManager state is now DISCONNECTED
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.0678] device (eth0): Activation: starting connection 'Wired connection 1' (f18d30c9-a5ce-32b9-9c9a-649147e70acd)
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.0686] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.0688] manager: NetworkManager state is now CONNECTING
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.0689] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.0713] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.0722] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.0787] dhcp4 (eth0): state changed new lease, address=10.0.1.14, acd pending
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.1999] dhcp4 (eth0): state changed new lease, address=10.0.1.14
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.2015] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.2211] device (eth0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.2238] device (eth0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.2239] device (eth0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.2241] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.2243] device (eth0): Activation: successful, device activated.
+Oct 13 02:15:35 kali NetworkManager[598]: <info>  [1760336135.2246] manager: NetworkManager state is now CONNECTED_GLOBAL
